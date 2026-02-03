@@ -29,6 +29,14 @@ Possui validação básica de usuário e senha com feedback visual direto na tel
 
 ---
 
+## Muito legal aprender na prática e com testes oque dá certo, a sintaxe da linguagem e as funcionalidades de cada biblioteca!!
+
+## 🎥 Demonstração
+
+| ✅ Login com sucesso | ❌ Login com erro |
+|--------------------|------------------|
+| ![](assets/certo.gif) | ![](assets/erro.gif) |
+
 ## ▶️ Como executar
 
 1. Clone o repositório:
@@ -44,12 +52,3 @@ python main.py
 🔑 Credenciais de teste
 Usuário: maria123
 Senha: 123456
-
-## Muito legal aprender na prática e com testes oque dá certo, a sintaxe da linguagem e as funcionalidades de cada biblioteca!!
-
-## 🎥 Demonstração
-
-| ✅ Login com sucesso | ❌ Login com erro |
-|--------------------|------------------|
-| ![](assets/certo.gif) | ![](assets/erro.gif) |
-
