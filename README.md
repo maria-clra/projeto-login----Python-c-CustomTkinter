@@ -46,3 +46,10 @@ Usuário: maria123
 Senha: 123456
 
 ## Muito legal aprender na prática e com testes oque dá certo, a sintaxe da linguagem e as funcionalidades de cada biblioteca!!
+
+## 🎥 Demonstração
+
+| ✅ Login com sucesso | ❌ Login com erro |
+|--------------------|------------------|
+| ![](assets/certo.gif) | ![](assets/erro.gif) |
+
