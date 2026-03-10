@@ -8,6 +8,8 @@ def abrir_cadastro(app):
     janela.title("Cadastro")
     janela.geometry("300x250")
 
+    janela.grab_set()
+
     label_user = ctk.CTkLabel(janela, text="Novo usuário")
     label_user.pack(pady=5)
 

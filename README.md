@@ -65,3 +65,11 @@ python main.py
 🔑 Credenciais de teste
 Usuário: maria123
 Senha: 123456
+
+```
+## 🎥 Demonstração
+
+Atualização:
+    Cadastrar no usuário:
+![](assets/cadastro.gif) 
+
