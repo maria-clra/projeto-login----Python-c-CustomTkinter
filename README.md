@@ -70,7 +70,7 @@ Senha: 123456
 ## 🎥 Demonstração
 
 Atualização:
-Cadastrar no usuário:
+Cadastrar novo usuário
 
 
 
