@@ -70,6 +70,9 @@ Senha: 123456
 ## 🎥 Demonstração
 
 Atualização:
-    Cadastrar no usuário:
+Cadastrar no usuário:
+
+
+
 ![](assets/cadastro.gif) 
 
