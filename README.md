@@ -26,8 +26,29 @@ Possui validação básica de usuário e senha com feedback visual direto na tel
 
 - Python  
 - CustomTkinter  
-
+- SQLite (banco de dados local)  
 ---
+## 📂 Estrutura do projeto
+projeto-login/
+│
+├── main.py
+├── .gitignore
+├── README.md
+├── database/
+│ └── database.py
+├── services/
+│ └── usuario_service.py
+└── ui/
+├── login.py
+└── cadastro.py
+
+## Muito legal aprender na prática e com testes oque dá certo, a sintaxe da linguagem e as funcionalidades de cada biblioteca!!
+
+## 🎥 Demonstração
+
+| ✅ Login com sucesso | ❌ Login com erro |
+|--------------------|------------------|
+| ![](assets/certo.gif) | ![](assets/erro.gif) |
 
 ## ▶️ Como executar
 
@@ -44,5 +65,3 @@ python main.py
 🔑 Credenciais de teste
 Usuário: maria123
 Senha: 123456
-
-## Muito legal aprender na prática e com testes oque dá certo, a sintaxe da linguagem e as funcionalidades de cada biblioteca!!
