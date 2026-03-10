@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# SQLite database
+banco.db
+
+# VS Code
+.vscode/
+
+# Mac / Linux
+.DS_Store
