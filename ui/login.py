@@ -1,6 +1,7 @@
 import customtkinter as ctk
 from services.usuario_service import verificar_login
 from ui.cadastro import abrir_cadastro
+from ui.sistema import sistema_adm, sistema_user
 
 #CustomTkinter = estiloso + profissional hehe
 #Configuar a aparência 
@@ -18,8 +19,14 @@ def iniciar_app():
 
         resultado = verificar_login(usuario, senha)
 
+
         if resultado:
-            resultado_login.configure(text='Login feito com sucesso!', text_color='green')
+
+            tipo_usuario = "admin" if resultado[3] == 1 else "user"
+            resultado_login.configure(text="Login realizado com sucesso")
+            if tipo_usuario == "admin":
+                sistema_adm(app)
+            else:sistema_user(app)
         else:
             resultado_login.configure(text='Login incorreto!', text_color='red')
 
@@ -45,6 +52,7 @@ def iniciar_app():
     #feedback
     resultado_login = ctk.CTkLabel(app,text='')
     resultado_login.pack(pady = 5)
+
 
     #iniar o app
     app.mainloop()
