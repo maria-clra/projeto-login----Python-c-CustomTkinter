@@ -12,21 +12,37 @@ Possui validação básica de usuário e senha com feedback visual direto na tel
 
 ---
 
-## ✨ Funcionalidades
+## 🚀 Funcionalidades
 
-- 🖤 Interface gráfica em dark mode  
-- 👤 Campo de usuário  
-- 🔐 Campo de senha protegido  
-- ✅ Validação de login  
-- 💬 Mensagem de sucesso ou erro
+*  Tela de login
+*  Validação de usuário e senha
+*  Cadastro de novos usuários
+*  Troca de telas (login → sistema)
+*  Interface gráfica moderna (CustomTkinter)
+
+###  Área Administrativa
+
+*  Listagem de usuários cadastrados
+*  Inserção de novos usuários
+*  Exclusão de usuários por ID
+*  Integração com banco de dados SQLite
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+##  Conceitos aplicados
+
+* Interface gráfica com CustomTkinter
+* Manipulação de banco de dados com SQLite
+* CRUD (Create, Read, Update, Delete)
+* Organização de fluxo entre telas
+
+
+##  Tecnologias utilizadas
 
 - Python  
 - CustomTkinter  
-- SQLite (banco de dados local)  
+- SQLite (banco de dados local)
+  
 ---
 ## 📂 Estrutura do projeto
 projeto-login/
@@ -62,17 +78,5 @@ pip install customtkinter
 Execute o projeto:
 python main.py
 
-🔑 Credenciais de teste
-Usuário: maria123
-Senha: 123456
 
-```
-## 🎥 Demonstração
-
-Atualização:
-Cadastrar novo usuário
-
-
-
-![](assets/cadastro.gif) 
 
