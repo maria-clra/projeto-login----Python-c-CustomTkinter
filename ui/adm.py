@@ -3,7 +3,7 @@ import sqlite3
 
 
 conn = sqlite3.connect("banco.db")
-cursor = conn.cursor()
+cursor = conn.cursor() #mãozinha que mexe no banco
 
 
 def inserir():
@@ -12,7 +12,7 @@ def inserir():
     if not usuario:
         print("Digite um usuário")
         return
-    
+    #só com execute tem como fazer mesmo, tem de ser os dois juntos
     cursor.execute(
         "INSERT INTO usuarios (usuario, senha, is_admin) VALUES (?, ?, ?)",
         (usuario, "00000", 0)
