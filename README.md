@@ -10,6 +10,8 @@ Com o tutorial do canal Dev Aprender | Jhonatan de Souza.
 Projeto criado para praticar Python e desenvolvimento de interfaces gráficas.  
 Possui validação básica de usuário e senha com feedback visual direto na tela.
 
+Em desenvolvimento: adicionei telas com a função de cadastrar novo usuario e o administrador do sistema conseguir excluir, listar e cadastrar usuarios no sistema.
+
 ---
 
 ## 🚀 Funcionalidades
@@ -45,38 +47,56 @@ Possui validação básica de usuário e senha com feedback visual direto na tel
   
 ---
 ## 📂 Estrutura do projeto
+
 projeto-login/
 │
 ├── main.py
 ├── .gitignore
 ├── README.md
 ├── database/
-│ └── database.py
+│   └── database.py
 ├── services/
-│ └── usuario_service.py
+│   └── usuario_service.py
 └── ui/
-├── login.py
-└── cadastro.py
+    ├── login.py
+    └── cadastro.py
 
 ## Muito legal aprender na prática e com testes oque dá certo, a sintaxe da linguagem e as funcionalidades de cada biblioteca!!
 
-## 🎥 Demonstração
+## Login
 
 | ✅ Login com sucesso | ❌ Login com erro |
 |--------------------|------------------|
 | ![](assets/certo.gif) | ![](assets/erro.gif) |
 
+## Cadastro
+
+
+![](assets/cadastro.gif)
+
+## Área Administrativa
+
+![](assets/adm.jpeg)
+
+
 ## ▶️ Como executar
 
-1. Clone o repositório:
+
+1. Clone o repositório e entre na pasta:
 ```bash
+
 git clone https://github.com/maria-clra/projeto-login----Python-c-CustomTkinter.git
-
-Instale a dependência:
+```
+2. Instale a dependência:
+```bash
 pip install customtkinter
-
-Execute o projeto:
+```
+3. Execute o projeto:
+```bash
 python main.py
+```
 
 
+📜 Licença
 
+Este projeto está sob a licença MIT — sinta-se livre para usar, modificar e compartilhar.
