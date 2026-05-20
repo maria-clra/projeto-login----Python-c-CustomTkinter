@@ -49,6 +49,8 @@ def iniciar_app():
     botao_cadastro = ctk.CTkButton(app, text="Criar conta", command=lambda: abrir_cadastro(app))
     botao_cadastro.pack(pady=5)
 
+    app.bind("<Return>", lambda event: validar_login())
+    
     #feedback
     resultado_login = ctk.CTkLabel(app,text='')
     resultado_login.pack(pady = 5)
