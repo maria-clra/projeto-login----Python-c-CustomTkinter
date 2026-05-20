@@ -12,8 +12,6 @@ Possui validação básica de usuário e senha com feedback visual direto na tel
 
 Em desenvolvimento: adicionei telas com a função de cadastrar novo usuario e o administrador do sistema conseguir excluir, listar e cadastrar usuarios no sistema.
 
----
-
 ## 🚀 Funcionalidades
 
 *  Tela de login
@@ -29,7 +27,6 @@ Em desenvolvimento: adicionei telas com a função de cadastrar novo usuario e o
 *  Exclusão de usuários por ID
 *  Integração com banco de dados SQLite
 
----
 
 ##  Conceitos aplicados
 
@@ -45,7 +42,7 @@ Em desenvolvimento: adicionei telas com a função de cadastrar novo usuario e o
 - CustomTkinter  
 - SQLite (banco de dados local)
   
----
+
 ## 📂 Estrutura do projeto
 
 projeto-login/
@@ -58,10 +55,28 @@ projeto-login/
 ├── services/
 │   └── usuario_service.py
 └── ui/
-    ├── login.py
-    └── cadastro.py
+│   ├── login.py
+│   ├── cadastro.py
+│   ├── adm.py
+│   ├── sistema.py
+│   └── user.py
 
-## Muito legal aprender na prática e com testes oque dá certo, a sintaxe da linguagem e as funcionalidades de cada biblioteca!!
+## 📚 Aprendizados
+
+Foi muito interessante aprender na prática sobre:
+- lógica de programação
+- manipulação de banco de dados
+- organização de código
+- interfaces gráficas
+- fluxo entre telas e usuários
+
+## 🔮 Melhorias futuras
+
+- Criptografia de senha
+- Edição de usuários
+- Recuperação de senha
+- Tema claro/escuro
+- Sistema de permissões
 
 ## Login
 
@@ -70,7 +85,6 @@ projeto-login/
 | ![](assets/certo.gif) | ![](assets/erro.gif) |
 
 ## Cadastro
-
 
 ![](assets/cadastro.gif)
 
@@ -96,7 +110,9 @@ pip install customtkinter
 python main.py
 ```
 
+---
 
-📜 Licença
+## 📜 Licença
 
 Este projeto está sob a licença MIT — sinta-se livre para usar, modificar e compartilhar.
+
